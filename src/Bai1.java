@@ -5,8 +5,8 @@ public class Bai1 {
         int n, sum = 0;
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-        for(int i = 0; i <=n; i+=2){
-            sum = sum +i;
+        for (int i = 0; i <= n; i += 2) {
+            sum = sum + i;
         }
         System.out.println("sum is: " + sum);
     }

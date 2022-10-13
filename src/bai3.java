@@ -7,21 +7,21 @@ public class bai3 {
         int n;
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        int j=n-1;
+        int j = n - 1;
         int i = 0;
-        while(i<j){
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-                i++; j--;
-            }
-        i =0;
-        for(i=0; i<n; i++)
-        {
-            System.out.print(arr[i]+ "  ");
+        while (i < j) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            i++;
+            j--;
+        }
+        i = 0;
+        for (i = 0; i < n; i++) {
+            System.out.print(arr[i] + "  ");
         }
     }
 }

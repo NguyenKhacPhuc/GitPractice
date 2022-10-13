@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Bai2 {
 
     public static void main(String[] args) {
@@ -6,15 +7,15 @@ public class Bai2 {
         char b;
         boolean c = false;
         Scanner sc = new Scanner(System.in);
-        a = sc.next();
+        a = sc.nextLine();
         b = sc.next().charAt(0);
 
-        for(int i =0; i < a.length();i++){
-            if(b == a.charAt(i)) c = true;
+        for (int i = 0; i < a.length(); i++) {
+            if (b == a.charAt(i)) c = true;
 
         }
-        if(c) System.out.println("Tuyệt cà là vời");
-        else System.out.println("Ôi bạn ơih");
+        if (c) System.out.println("Dung");
+        else System.out.println("Sai");
 
 
     }
